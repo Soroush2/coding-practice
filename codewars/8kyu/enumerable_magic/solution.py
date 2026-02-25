@@ -7,7 +7,6 @@ Category:
 """
 #Solution 1 - Initial Attempt
 def _all(seq, fun):
-    condition=False
     if not seq:
         return True
     for i in seq:
