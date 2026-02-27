@@ -16,3 +16,6 @@ def _all(seq, fun):
 greater_than_9 = lambda x: x>9
 less_than_9 = lambda x: x<9
 print(_all([], less_than_9))
+#Solution 2 - Best Practice
+def _all(seq, fun): 
+    return all(map(fun, seq))
