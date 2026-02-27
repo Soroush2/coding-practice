@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Obsidian
+.obsidian/
+
+# OS
+.DS_Store
